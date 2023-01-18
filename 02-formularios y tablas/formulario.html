@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formularios</title>
+	</head>
+	<body>
+		<h1>Aqui vamos a empezar a escribir nuestro codigo</h1>
+		<!--En los formularios hay dos tipos de metodos que es el GET y POST, 
+			el POST se lo utiliza cuando se va a usar una accion desde un servidor-->
+		<form action="resultados.html" method="GET">
+			<div>
+				<label for="nombreusuario">Nombre de usuario</label>
+				<input name="nombreusuario" id="nombreusuario" required />
+			</div>
+			<br />
+			<!--Area de password podemos darle un tipo de password y oculta el contenido-->
+			<div>
+				<label for="password">Contrasena</label>
+				<input type="password" name="password" id="password" required />
+			</div>
+			<br />
+			<!--Area de edad podemos darle limites de un min y un maximo como tambien que vaya de 5 en 5-->
+			<div>
+				<label for="edad">Cual es tu edad?</label>
+				<input type="number" name="edad" id="edad" min="0" max="100" step="5" />
+			</div>
+			<br />
+			<!---->
+			<div>
+				<label for="email">Cual es tu email?</label>
+				<input type="email" name="email" id="email" />
+			</div>
+			<br />
+			<!---->
+			<div>
+				<label for="nacimiento">Cual es tu fecha de nacimiento?</label>
+				<input type="date" name="nacimiento" id="nacimiento" />
+			</div>
+			<br />
+			<div>
+				<label for="comentarios">Comentarios</label>
+				<textarea
+					name="comentarios"
+					id="comentarios"
+					cols="30"
+					rows="10"
+				></textarea>
+			</div>
+			<!--Tenemos dos tipos de botones que se utilizan siempre que son estas-->
+			<button type="reset">Reset</button>
+			<button type="submit">Enviar</button>
+		</form>
+	</body>
+</html>
