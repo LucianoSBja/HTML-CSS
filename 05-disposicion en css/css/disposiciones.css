@@ -1,0 +1,22 @@
+.div-1,
+.div-2 {
+	background-color: aqua;
+	/* display: block; POR DEFECTO - div tiene display block */
+}
+
+.span-1 {
+	background-color: seagreen;
+	/* display: inline; POR DEFECTO - span tiene diplay inline */
+	float: left;
+}
+.span-2 {
+	background-color: seagreen;
+	/* display: inline; POR DEFECTO - span tiene diplay inline */
+	float: right;
+}
+
+.img {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
