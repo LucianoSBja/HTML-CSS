@@ -1,0 +1,50 @@
+/** Estilos para los colores */
+:root {
+	--color: orange;
+	--color-hexadecimal: #bfabcb;
+	--color-rgb: rgb(53, 71, 236);
+	--color-rgba: rgba(121, 12, 12, 0.85);
+}
+
+.colores {
+	color: var(--color);
+}
+
+.color-hexadecimal {
+	color: var(--color-hexadecimal);
+}
+
+.color-rgb {
+	color: var(--color-rgb);
+}
+
+.color-rgba {
+	color: var(--color-rgba);
+}
+
+/* Fondos */
+
+.fondo {
+	/* background-color: orchid; */
+	background-image: url('https://www.wallpapertip.com/wmimgs/8-82164_soothing-background.jpg');
+	background-position: left;
+}
+
+/* Espacios y alturas */
+.ancho {
+	background-color: aquamarine;
+	width: 150px;
+}
+
+.alto {
+	background-color: #bfabcb;
+	height: 500px;
+}
+
+.tarjeta {
+	border-style: solid;
+	border-color: rgb(53, 71, 236);
+	border-width: 1px;
+	padding: 10px 20px 30px 40px;
+	margin: 10px 20px;
+}

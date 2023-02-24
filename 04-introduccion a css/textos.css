@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+html {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.titulo2 {
+	font-family: 'Tilt Prism', cursive;
+}
