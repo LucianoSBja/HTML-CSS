@@ -1,0 +1,21 @@
+/** (1, 0, 0) ==> 'id' */
+/** (0, 1, 0) ==> 'clase' */
+/** (0, 0, 1) ==> 'selector' */
+/** la especificidad es sobre cual tiene mas prioriduad que el otro */
+
+#h1-id {
+	color: darkmagenta;
+}
+
+/** !important tiene mas especificidad que todos pero hay que EVITARLO lo mas que se pueda para mejor practica */
+.h1-clase {
+	color: chartreuse !important;
+}
+
+h1 {
+	color: aquamarine;
+}
+
+p {
+	color: blueviolet;
+}
