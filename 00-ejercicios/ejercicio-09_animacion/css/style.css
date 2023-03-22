@@ -1,0 +1,19 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.btn-modern:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 0 0 0.3rem #333;
+	background-color: aqua;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	transition: 0.4s;
+	cursor: pointer;
+}
