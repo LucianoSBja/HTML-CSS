@@ -1,0 +1,14 @@
+.contenedor {
+	display: flex;
+	background-color: aqua;
+}
+
+.izquierda {
+	background-color: blue;
+}
+
+.derecha {
+	background-color: bisque;
+
+	flex-grow: 1px;
+}
